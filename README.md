@@ -43,7 +43,7 @@ Through this process, we created the Chinese HealthWSD corpus that can be used f
   </instance>
 </lexical>
 ```
-## Statics
+## Statistics
 |  Datasets  | #Sent  | #Token  |
 |:----------:|--------|---------|
 |  Training  | 7,109  | 373,152 |
