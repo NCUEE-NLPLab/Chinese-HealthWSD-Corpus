@@ -53,5 +53,5 @@ Through this process, we created the Chinese HealthWSD corpus that can be used f
 ## Reference
 Lung-Hao Lee and Yi Lu (2021). Multiple Embeddings Enhanced Multi-Graph Neural Networks for Chinese Healthcare Named Entity Recognition. *IEEE Journal of Biomedical and Health Informatics*, 25(7), pp. 2801-2810. [https://doi.org/10.1109/JBHI.2020.3048700](https://doi.org/10.1109/JBHI.2020.3048700)
 
-Tzu-Mi Lin, Man-Chen Hung, Lunh-Hao Lee (2023). Leveraging Daul Gloss Encoders in Chinese Biomedical Entity Linking. *ACM Transactions on Asian and Low-Resource Language Information Processing*. (accepted for publication).[https://doi.org/10.1145/3638555](https://doi.org/10.1145/3638555)
+Tzu-Mi Lin, Man-Chen Hung, and Lung-Hao Lee (2023). Leveraging Daul Gloss Encoders in Chinese Biomedical Entity Linking. *ACM Transactions on Asian and Low-Resource Language Information Processing*. (accepted for publication).[https://doi.org/10.1145/3638555](https://doi.org/10.1145/3638555)
 
