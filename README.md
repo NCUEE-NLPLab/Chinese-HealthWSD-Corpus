@@ -1,5 +1,5 @@
-# Chinese-HealthWSD-Corpus
-Chinese Healthcare Named Entity Recognition (HealthNER) Corpus is collected and annotated by NCUEE NLP Lab. ([http://nlp.ee.ncu.edu.tw/](http://nlp.ee.ncu.edu.tw/))
+# Chinese HealthWSD Corpus
+Chinese Healthcare Word Sense Disambiguation (HealthWSD) Corpus is collected and annotated by NYCU NLP Lab. ([https://ainlp.tw/](https://ainlp.tw/))
 
 We first selected named entities in the [Chinese HealthNER corpus](https://github.com/NCUEE-NLPLab/Chinese-HealthNER-Corpus) (Lee and Lu, 2021) with coverage across 10 entity types (body, symptom, instrument, examinations, chemical, disease, drug, supplement, treatment and time) as seed entities to search the BabelNet version 5.0, a multilingual encyclopedic lexicon that contains named entities in a large network of semantic relations. A total of 735 distinct named entities contains at least two semantically different glosses in BabelNet. After manual checking, we selected 40 nouns as target biomedical entities that do not contain unclear or specific glosses such as names for creative works, author names and so on.
 
@@ -26,7 +26,6 @@ Through this process, we created the Chinese HealthWSD corpus that can be used f
   * instance: a target word identifier in sentence
   * synsetid: word sense id in BabelNet version 5.0
 * context: a sentence contains the target word
-* head: a target word in the sentence
 ## Example
 ```
 <lexical item="心臟病">
@@ -43,7 +42,7 @@ Through this process, we created the Chinese HealthWSD corpus that can be used f
   </instance>
 </lexical>
 ```
-## Statistics
+## Statics
 |  Datasets  | #Sent  | #Token  |
 |:----------:|--------|---------|
 |  Training  | 7,109  | 373,152 |
@@ -53,3 +52,6 @@ Through this process, we created the Chinese HealthWSD corpus that can be used f
 
 ## Reference
 Lung-Hao Lee and Yi Lu (2021). Multiple Embeddings Enhanced Multi-Graph Neural Networks for Chinese Healthcare Named Entity Recognition. *IEEE Journal of Biomedical and Health Informatics*, 25(7), pp. 2801-2810. [https://doi.org/10.1109/JBHI.2020.3048700](https://doi.org/10.1109/JBHI.2020.3048700)
+
+Tzu-Mi Lin, Man-Chen Hung, Lunh-Hao Lee (2023). Leveraging Daul Gloss Encoders in Chinese Biomedical Entity Linking. *ACM Transactions on Asian and Low-Resource Language Information Processing*. (accepted for publication).[https://doi.org/10.1145/3638555](https://doi.org/10.1145/3638555)
+
