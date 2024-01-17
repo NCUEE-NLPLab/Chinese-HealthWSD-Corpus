@@ -1,5 +1,5 @@
 # Chinese HealthWSD Corpus
-Chinese Healthcare Word Sense Disambiguation (HealthWSD) Corpus is collected and annotated by NYCU NLP Lab. ([https://ainlp.tw/](https://ainlp.tw/))
+Chinese Healthcare Word Sense Disambiguation (HealthWSD) Corpus is collected and annotated by NYCU NLP Lab ([https://ainlp.tw/](https://ainlp.tw/)).
 
 We first selected named entities in the [Chinese HealthNER corpus](https://github.com/NCUEE-NLPLab/Chinese-HealthNER-Corpus) (Lee and Lu, 2021) with coverage across 10 entity types (body, symptom, instrument, examinations, chemical, disease, drug, supplement, treatment and time) as seed entities to search the BabelNet version 5.0, a multilingual encyclopedic lexicon that contains named entities in a large network of semantic relations. A total of 735 distinct named entities contains at least two semantically different glosses in BabelNet. After manual checking, we selected 40 nouns as target biomedical entities that do not contain unclear or specific glosses such as names for creative works, author names and so on.
 
